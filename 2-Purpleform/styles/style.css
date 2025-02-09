@@ -1,0 +1,80 @@
+body {
+  background-color: #111215;
+}
+
+main {
+  background-color: #1e1f29;
+  border-radius: 10px;
+  padding: 48px;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fafafa;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 0 32px 0;
+}
+.field {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+select {
+  background-color: #2c2d3d;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  text-decoration-skip-ink: none;
+  font-family: sans-serif;
+  padding: 27px 48px 12px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+input::placeholder textarea::placeholder select::placeholder {
+  color: #5a4b75;
+  font-size: 16px;
+}
+label {
+  color: #afb2bf;
+  position: absolute;
+  top: 12px;
+  left: 48px;
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+
+button {
+  background-color: #6c38cc;
+  color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+  
+}
+
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}

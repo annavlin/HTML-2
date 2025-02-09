@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <form action="test">
+        <input type="hidden" 
+        name="hid" 
+        value="1">
+        <!--file:///Users/annadorofeeva/Desktop/dev/HTML/test?hid=&email=Anechka211299%40gmail.com&pass=gjkrgkrgklr&tesy=2025-01-08&color=%238c3131-->
+        <!--file:///Users/annadorofeeva/Desktop/dev/HTML/test?hid=&email=&pass=&tesy=&color=%23cecece-->
+        <div>
+        <label for="email">Введите email</label>
+        <input type="email" 
+        placeholder="Email пользователя" 
+        id="email" 
+        name="email">
+        </div>
+        <label for="password">Введите пароль</label>
+        <input type="password" 
+        name="pass" 
+        placeholder="Пароль пользователя" 
+        id="password" 
+        name="password" > 
+        <label for="birtyDate">Введите дату рождения</label>
+        <input type="date" 
+        name="tesy" 
+        placeholder="Дата рождения" 
+        id="birtyDate" 
+        name="birtyDate"> 
+        <label for="color">Введите цвет</label>
+        <input type="color" 
+        id="color" 
+        name="color">
+<br>
+         
+         <button type="submit"> Кнопка 
+         </button>
+         
+    </form>
+    <button>Кнопка вне формы</button>
+<p>
+
+    <form >
+        <input type="text" 
+        name="search_query" 
+        placeholder="Что вы хотите найти?" 
+        id="query" 
+        title="Нужно ввести запрос"
+        minlength="3"
+        maxlength="20"
+        pattern="/^\d+$/"
+        required>
+        
+        <p>
+        <div>
+            <label for="agree">Согласен с обработкой данных</label>
+        <input type="checkbox" 
+        name="agree" 
+        id="agree">
+        <p>
+        <button type="submit"> Искать на YouTube</button>
+        </p>
+        </div>
+        </p>
+        <p>
+        <div>
+
+            <input type="radio" 
+            name="search" 
+            id="all" 
+            value="all">
+            <label for="all">Поиск повсюду</label>
+        </div>
+        <div>
+            <input type="radio" name="search" id="youtube" value="youtube">
+            <label for="youtube">Поиск на youtube</label>
+            
+        </div>
+    <p></p>
+        <div>
+            <label for="topic">Тематика</label>
+            <select name="topic" id="topic">
+
+                <option value="1">Все</option>
+                <optgroup label="Популярное">
+                <option value="2">Животные</option>
+                <option value="3" selected>Растения</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="volume">Громкость</label>
+            <input type="range" 
+            name="volume" 
+            id="volume" 
+            min="0" 
+            max="10" 
+            step="2">
+        </div>
+        <div>
+            <label for="num">Оценка</label>
+            <input type="number" 
+            name="num" 
+            id="number" 
+            min="1" 
+            max="5" 
+            step="1">
+        </div>
+        <div>
+            <label for="text">Комментарий</label>
+            <textarea name="text" 
+            id="text" 
+            rows="10" 
+            cols="100" 
+            placeholder="Введите текст"></textarea>
+            </div>
+        <p>
+        <button type="submit"> Искать на YouTube</button>
+        </p>
+        </p>
+       
+        <!--https://www.youtube.com/results?search_query=purpleschool-->
+        <!--https://rutube.ru/video/b212e79c2631dc0596c54718c360e29f/-->
+   
+    </form>
+
+   
+</p>
+</body>
+</html>

@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#heroButton {
+  background-color: #4262ff;
+  color: #ffffff;
+  height: 51px;
+  border-radius: 32px;
+  border: 1px solid #4262ff;
+  padding: 10px 20px;
+  transition: background-color 1s;
+}
+
+#heroButton:hover {
+  background-color: #1b1374;
+}
+
+#heroButton:active {
+  background-color: #0b082b;
+}
+
+.heroForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.heroForm input {
+  border-radius: 32px;
+  border: 1px solid #9b99af;
+  height: 38px;
+  padding: 5px 10px;
+}
+
+.heroForm input:focus {
+  background-color: #4394af;
+}
+
+.link {
+  color: #4262ff;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #1d1386;
+}
+h1 {
+  margin: 0 0 17px 0;
+}
+
+h2 {
+  margin: 0 0 19px 0;
+}
+
+h1,
+h2 {
+  color: #050038;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.heroText {
+  color: #050038;
+  margin: 0 0 55px 0;
+}
+.sectionText {
+  color: rgba(5, 0, 56, 0.6);
+  margin: 0 0 40px 0;
+}
+
+header {
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 60px;
+}
+
+header a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #050038;
+  text-decoration: none;
+}
+
+.heroForm + p {
+  line-height: 20px;
+  text-decoration-skip-ink: none;
+  color: #050038;
+  margin: 8px 0 52px 0;
+}
+.herologos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav {
+  padding: 33px 50px;
+  margin-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 34px;
+}
+
+.sectionList {
+  list-style-type: none;
+  /*list-style-image: url('../images/Frame.svg') ;
+}*/
+}
+
+.sectionList li::marker {
+  content: url("../images/Frame.svg");
+}
+
+#hero {
+  display: flex;
+  gap: 65px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  margin-bottom: 140px;
+}
+
+.heroText {
+  font-size: 2em;
+}
+
+.hero2 {
+  display: flex;
+  gap: 116px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.hero3 {
+  display: flex;
+  gap: 115px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+footer {
+  background: #050038;
+  padding: 47px 40px;
+  color: white;
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer > div {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <h1>Свяжитесь со мной</h1>
+        <div class="field">
+          <img src="./images/message.svg" alt="иконка сообщения" />
+          <label for="email">Введите email</label>
+          <input
+            type="email"
+            placeholder="Email пользователя"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="field">
+          <img src="./images/telegram@2x.svg" alt="телеграм" />
+
+          <label for="telegram">Введите telegram</label>
+
+          <input
+            type="telegram"
+            placeholder="telegram пользователя"
+            id="telegram"
+            name="telegram"
+            required
+          />
+        </div>
+        <div class="field">
+          <img src="./images/topic.svg" alt="иконка сообщения" />
+          <label for="topic">Тема </label>
+
+          <select name="topic" id="topic" required>
+            <option value="1" selected>Приобретение курсов</option>
+            <option value="2">Мастер-класс</option>
+            <option value="3">Видеоразбор</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="comment">Комментарий</label>
+          <textarea
+            name="text"
+            id="text"
+            rows="10"
+            cols="100"
+            placeholder="Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета."
+          ></textarea>
+        </div>
+        <button>Отправить</button>
+      </form>
+    </main>
+  </body>
+</html>
