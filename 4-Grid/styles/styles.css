@@ -1,0 +1,62 @@
+:root {
+  --color-primary: #6c38cc;
+  --color-primary-hover: #4511a7;
+  --color-secondary: #e47ad5;
+  --color-bg: #16171d;
+  --color-text: #fafafa;
+  --color-link-hover: #afb2bf;
+  --space-10: 10px;
+  --color-bg-medium: #1e1f29;
+  --color-bg-light: #2e2d3d;
+  --color-stroke: #4d5064;
+  --color-footer: #101114;
+  --border-8: 8px;
+  --border-10: 10px;
+
+  --layout-width: 1172px;
+  --gradient: linear-gradient(
+    93.33deg,
+    #d77be6 9.26%,
+    #be63e6 42.32%,
+    #6c38cc 104.58%
+  );
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  margin: 30px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.item {
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 700;
+  border: 2px solid var(--color-primary);
+  text-align: center;
+  padding: 15px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: [s-left]200px 200px [sidebar] 1fr 1fr [s-right];
+  grid-template-rows: [s-start] repeat(3, 200px) [s-end];
+  gap: 15px;
+}
+
+.item_9 {
+  grid-column: s-left 1 / sidebar;
+  grid-row: s-start / s-end;
+}
