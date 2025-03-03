@@ -12,6 +12,7 @@
   --color-footer: #101114;
   --border-8: 8px;
   --border-10: 10px;
+  --border-17: 17px;
 
   --layout-width: 1172px;
   --gradient: linear-gradient(
@@ -42,6 +43,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  outline: none;
+  border-width: none;
+  border-style: none;
+  border-color: none;
+  border-image: none;
 }
 
 .section__wrapper {
